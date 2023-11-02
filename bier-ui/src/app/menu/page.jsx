@@ -6,7 +6,7 @@ export default function Services() {
       <section className='glassmorph py-5'>
         <div className='container bg-white  container-border rounded p-5'>
           <h2 className=''>
-            Menu
+            <i class="bi bi-book"></i> Menu 
           </h2>
           <section>
             <table class="table table-hover border-yellow">
