@@ -1,18 +1,18 @@
 import Link from 'next/link'
-import Logo from './img/NayongFilipino-Logo.png'
+import Logo from './img/Sandra-logo.png'
 import Image from 'next/image'
 import Contact from '../HomeComponents/contact'
 
 export default function Footer() {
   return (
-    <div className="bg-white container-border-top">
+    <div className="footer-color container-border-top">
       <footer className='d-flex container py-4'>
         <section className='col-md-3'>
           <Link nk href="/" className="col d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
             <Image
               src={Logo}
               className='img-fluid'
-              width={500}></Image>
+              width={200}></Image>
           </Link>
         </section>
         <section className='border-start border-danger ms-3 ps-3'>

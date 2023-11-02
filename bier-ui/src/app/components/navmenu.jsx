@@ -1,13 +1,13 @@
 import Link from "next/link"
 import Image from "next/image"
-import Logo from './img/NayongFilipino-Logo.png'
+import Logo from './img/Sandra-logo.png'
 import { usePathname } from "next/navigation"
 
 export default function NavMenu() {
 
 
   return (
-    <nav className="navbar navbar-expand-lg py-0 bg-body-tertiary shadow">
+    <nav className="navbar navbar-expand-lg py-0 navbar-color shadow">
       <div className="container">
         <a className="navbar-brand" href="/">
           <Image

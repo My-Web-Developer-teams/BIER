@@ -16,7 +16,7 @@ body{
 }
 
 .home-css{
-  background-image: url('./components/img/Nayong\ Filipino\ -\ food1.jpg');
+  background-image: url('./components/img/background.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -139,4 +139,12 @@ a{
 
 .border-yellow{
   border-color: #ffc965 !important;
+}
+
+.footer-color {
+  background-color: #f1f1f1;
+}
+
+.navbar-color {
+  background-color: #f1f1f1;
 }
