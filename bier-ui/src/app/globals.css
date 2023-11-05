@@ -16,7 +16,7 @@ body{
 }
 
 .home-css{
-  background-image: url('./components/img/background.jpg');
+  background-image: url('./components/img/background1.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -26,7 +26,7 @@ body{
 .bg-glassmorph{
   /* From https://css.glass */
   /* background: rgba(255, 255, 255, 0.2); */
-  border-image: linear-gradient(
+  /* border-image: linear-gradient(
     90deg,
     #332f9c 30%, 
     #d92125 30%, 
@@ -34,7 +34,7 @@ body{
     #ebb34b 40%,
     #ebb34b 100%) 90;
   border-width: 1rem 0 0 0;
-  border-style: solid;
+  border-style: solid; */
 
   background-image: linear-gradient(
     180deg,
@@ -93,7 +93,7 @@ a{
   text-decoration: none !important;
 }
 
-.label-border-css{
+/* .label-border-css{
   border-image: linear-gradient(
     90deg,
     #332f9c 50%, 
@@ -103,7 +103,7 @@ a{
     #ebb34b 100%) 90;
   border-width: .3rem 0 0 0;
   border-style: solid;
-}
+} */
 
 .bg-yellow{
   background-color: #ebb34b;
@@ -113,7 +113,7 @@ a{
   color: #332f9c !important;
 }
 
-.container-border{
+/* .container-border{
   border-image: linear-gradient(
     90deg,
     #332f9c 50%, 
@@ -123,9 +123,9 @@ a{
     #ebb34b 100%) 90;
   border-width: .3rem;
   border-style: solid;
-}
+} */
 
-.container-border-top{
+/* .container-border-top{
   border-image: linear-gradient(
     90deg,
     #332f9c 50%, 
@@ -135,7 +135,7 @@ a{
     #ebb34b 100%) 90;
   border-width: .3rem 0 0 0;
   border-style: solid;
-}
+} */
 
 .border-yellow{
   border-color: #ffc965 !important;
